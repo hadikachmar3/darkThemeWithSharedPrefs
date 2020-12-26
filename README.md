@@ -1,4 +1,4 @@
-# ECommerceApp
+# Dark/Light Theme
 
 A new Flutter project.
 
