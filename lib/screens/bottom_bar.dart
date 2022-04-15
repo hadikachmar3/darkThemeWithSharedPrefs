@@ -57,10 +57,10 @@ class _BottomBarScreenState extends State<BottomBarScreen> {
           height: kBottomNavigationBarHeight * 0.98,
           child: Container(
             decoration: BoxDecoration(
-              color: Colors.white,
+              color: Color.fromARGB(255, 154, 54, 248),
               border: Border(
                 top: BorderSide(
-                  color: Colors.grey,
+                  color: Color.fromARGB(255, 55, 0, 87),
                   width: 0.5,
                 ),
               ),
@@ -77,23 +77,23 @@ class _BottomBarScreenState extends State<BottomBarScreen> {
                   label: 'Home',
                 ),
                 BottomNavigationBarItem(
-                  icon: Icon(MyAppIcons.rss),
-                  label: 'Feeds',
+                  icon: Icon(Icons.dashboard),
+                  label: 'Stats',
                 ),
                 BottomNavigationBarItem(
                   activeIcon: null,
                   icon: Icon(null),
-                  label: 'Search',
+                  label: 'Add',
                 ),
                 BottomNavigationBarItem(
                   icon: Icon(
-                    MyAppIcons.cart,
+                    Icons.calendar_month,
                   ),
-                  label: 'Cart',
+                  label: 'Calendar',
                 ),
                 BottomNavigationBarItem(
-                  icon: Icon(MyAppIcons.user),
-                  label: 'User',
+                  icon: Icon(Icons.settings),
+                  label: 'Settings',
                 ),
               ],
             ),

@@ -14,10 +14,11 @@ class ColorsConsts {
   static Color cartBadgeColor = Color(0xFFBA68C8); //purple 300
 
   static Color gradiendFStart = Color(0xFFE040FB); //purpleaccent 100
-  static Color gradiendFEnd = Color(0xFFE1BEE7); //purple 100
-  static Color endColor = Color(0xFFCE93D8); //purple 200
+  static Color gradiendFEnd = Colors.deepPurple; //purple 100
+  static Color endColor = Colors.deepPurple; //purple 200
   static Color purple300 = Color(0xFFBA68C8); //purple 300
-  static Color gradiendLEnd = Color(0xFFAB47BC); //purple 400
+  static Color gradiendLEnd = Colors.deepPurple; //purple 400
   static Color gradiendLStart = Color(0xFFAA00FF); //purpleaccent 700
   static Color starterColor = Color(0xFF8E24AA); //purple 600
-  static Color purple800 = Color(0xFF6A1B9A);}
+  static Color purple800 = Color(0xFF6A1B9A);
+}

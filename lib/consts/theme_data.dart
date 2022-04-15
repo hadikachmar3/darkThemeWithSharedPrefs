@@ -5,9 +5,13 @@ import 'package:flutter/material.dart';
 class Styles {
   static ThemeData themeData(bool isDarkTheme, BuildContext context) {
     return ThemeData(
-     scaffoldBackgroundColor: isDarkTheme ? Colors.black :Colors.grey.shade300,
+      scaffoldBackgroundColor: isDarkTheme
+          ? Color.fromARGB(255, 54, 54, 54)
+          : Color.fromARGB(255, 241, 240, 240),
       primarySwatch: Colors.purple,
-      primaryColor: isDarkTheme ? Colors.black : Colors.grey.shade300,
+      primaryColor: isDarkTheme
+          ? Color.fromARGB(255, 34, 34, 34)
+          : Color.fromARGB(255, 236, 236, 236),
       accentColor: Colors.deepPurple,
       backgroundColor: isDarkTheme ? Colors.grey.shade700 : Colors.white,
       indicatorColor: isDarkTheme ? Color(0xff0E1D36) : Color(0xffCBDCF8),
