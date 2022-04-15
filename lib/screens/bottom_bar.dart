@@ -74,26 +74,26 @@ class _BottomBarScreenState extends State<BottomBarScreen> {
               items: [
                 BottomNavigationBarItem(
                   icon: Icon(MyAppIcons.home),
-                  title: Text('Home'),
+                  label: 'Home',
                 ),
                 BottomNavigationBarItem(
                   icon: Icon(MyAppIcons.rss),
-                  title: Text('Feeds'),
+                  label: 'Feeds',
                 ),
                 BottomNavigationBarItem(
                   activeIcon: null,
                   icon: Icon(null),
-                  title: Text('Search'),
+                  label: 'Search',
                 ),
                 BottomNavigationBarItem(
                   icon: Icon(
                     MyAppIcons.cart,
                   ),
-                  title: Text('Cart'),
+                  label: 'Cart',
                 ),
                 BottomNavigationBarItem(
                   icon: Icon(MyAppIcons.user),
-                  title: Text('User'),
+                  label: 'User',
                 ),
               ],
             ),
@@ -107,9 +107,9 @@ class _BottomBarScreenState extends State<BottomBarScreen> {
         child: FloatingActionButton(
           hoverElevation: 10,
           splashColor: Colors.grey,
-          tooltip: 'Search',
+          tooltip: 'Add',
           elevation: 4,
-          child: Icon(MyAppIcons.search),
+          child: Icon(Icons.add),
           onPressed: () => setState(() {
             _selectedPageIndex = 2;
           }),

@@ -10,10 +10,52 @@ package com.example.ECommerceApp;
 public final class R {
   public static final class attr {
     /**
+     * Action used for activity launch. May be empty. Must not contain wildcards.
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int activityAction=0x7f010000;
+    /**
+     * Component name of the primary activity in the split. Must be non-empty. Can contain a
+     * single wildcard at the end.
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int activityName=0x7f010001;
+    /**
      * Alpha multiplier applied to the base color.
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int alpha=0x7f010000;
+    public static final int alpha=0x7f010002;
+    /**
+     * Whether the activity should always be expanded on launch.
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int alwaysExpand=0x7f010003;
+    /**
+     * If there is an existing split with the same primary container, indicates whether the
+     * existing secondary container on top and all activities in it should be destroyed when a new
+     * split is created using this rule. Otherwise the new secondary will appear on top. Defaults
+     * to "false".
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int clearTop=0x7f010004;
+    /**
+     * When all activities are finished in the secondary container, the activity in the
+     * primary container that created the split should also be finished. Defaults to "false".
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int finishPrimaryWithSecondary=0x7f010005;
+    /**
+     * When all activities are finished in the primary container, the activities in the
+     * secondary container in the split should also be finished. Defaults to "true".
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int finishSecondaryWithPrimary=0x7f010006;
     /**
      * The reference to the font file to be used. This should be a file in the res/font folder
      * and should therefore have an R reference value. E.g. @font/myfont
@@ -22,13 +64,13 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int font=0x7f010001;
+    public static final int font=0x7f010007;
     /**
      * The authority of the Font Provider to be used for the request.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderAuthority=0x7f010002;
+    public static final int fontProviderAuthority=0x7f010008;
     /**
      * The sets of hashes for the certificates the provider should be signed with. This is
      * used to verify the identity of the provider, and is only required if the provider is not
@@ -40,7 +82,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fontProviderCerts=0x7f010003;
+    public static final int fontProviderCerts=0x7f010009;
     /**
      * The strategy to be used when fetching font data from a font provider in XML layouts.
      * This attribute is ignored when the resource is loaded from code, as it is equivalent to the
@@ -67,7 +109,7 @@ public final class R {
      * default typeface will be used instead.</td></tr>
      * </table>
      */
-    public static final int fontProviderFetchStrategy=0x7f010004;
+    public static final int fontProviderFetchStrategy=0x7f01000a;
     /**
      * The length of the timeout during fetching.
      * <p>May be an integer value, such as "<code>100</code>".
@@ -81,21 +123,30 @@ public final class R {
      * timeout and wait until a reply is received from the font provider.</td></tr>
      * </table>
      */
-    public static final int fontProviderFetchTimeout=0x7f010005;
+    public static final int fontProviderFetchTimeout=0x7f01000b;
     /**
      * The package for the Font Provider to be used for the request. This is used to verify
      * the identity of the provider.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderPackage=0x7f010006;
+    public static final int fontProviderPackage=0x7f01000c;
     /**
      * The query to be sent over to the provider. Refer to your font provider's documentation
      * on the format of this string.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderQuery=0x7f010007;
+    public static final int fontProviderQuery=0x7f01000d;
+    /**
+     * Provides the system font family name to check before downloading the font. For
+     * example if the fontProviderQuery asked for "Sans Serif", it is possible to define
+     * fontProviderSystemFontFamily as "sans-serif" to tell the system to use "sans-serif" font
+     * family if it exists on the system.
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int fontProviderSystemFontFamily=0x7f01000e;
     /**
      * The style of the given font file. This will be used when the font is being loaded into
      * the font stack and will override any style information in the font's header tables. If
@@ -110,7 +161,7 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int fontStyle=0x7f010008;
+    public static final int fontStyle=0x7f01000f;
     /**
      * The variation settings to be applied to the font. The string should be in the following
      * format: "'tag1' value1, 'tag2' value2, ...". If the default variation settings should be
@@ -119,7 +170,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontVariationSettings=0x7f010009;
+    public static final int fontVariationSettings=0x7f010010;
     /**
      * The weight of the given font file. This will be used when the font is being loaded into
      * the font stack and will override any weight information in the font's header tables. Must
@@ -128,19 +179,100 @@ public final class R {
      * in the font's header tables will be used.
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int fontWeight=0x7f01000a;
+    public static final int fontWeight=0x7f010011;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int nestedScrollViewStyle=0x7f010012;
+    /**
+     * Component name of the placeholder activity in the split. Must be non-empty.
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int placeholderActivityName=0x7f010013;
+    /**
+     * Component name of the primary activity in the split. Must be non-empty. Can contain a
+     * wildcard at the end or instead of package name and/or class name.
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int primaryActivityName=0x7f010014;
+    /**
+     * Resource reference to the string array of query patterns for a custom capability.
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int queryPatterns=0x7f010015;
+    /**
+     * Action used for secondary activity launch. May be empty. Must not contain wildcards.
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int secondaryActivityAction=0x7f010016;
+    /**
+     * Component name of the secondary activity in the split. Must be non-empty. Can contain a
+     * wildcard at the end or instead of package name and/or class name.
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int secondaryActivityName=0x7f010017;
+    /**
+     * Indicates whether a parameter in a capability template can only contain a matched
+     * shortcut id and not an arbitrary string.
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int shortcutMatchRequired=0x7f010018;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>locale</td><td>0</td><td></td></tr>
+     * <tr><td>ltr</td><td>1</td><td></td></tr>
+     * <tr><td>rtl</td><td>2</td><td></td></tr>
+     * </table>
+     */
+    public static final int splitLayoutDirection=0x7f010019;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int splitMinSmallestWidth=0x7f01001a;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int splitMinWidth=0x7f01001b;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int splitRatio=0x7f01001c;
     /**
      * The index of the font in the tcc font file. If the font file referenced is not in the
      * tcc format, this attribute needs not be specified.
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int ttcIndex=0x7f01000b;
+    public static final int ttcIndex=0x7f01001d;
   }
   public static final class color {
-    public static final int notification_action_color_filter=0x7f020000;
-    public static final int notification_icon_bg_color=0x7f020001;
-    public static final int ripple_material_light=0x7f020002;
-    public static final int secondary_text_default_material_light=0x7f020003;
+    public static final int androidx_core_ripple_material_light=0x7f020000;
+    public static final int androidx_core_secondary_text_default_material_light=0x7f020001;
+    public static final int notification_action_color_filter=0x7f020002;
+    public static final int notification_icon_bg_color=0x7f020003;
   }
   public static final class dimen {
     public static final int compat_button_inset_horizontal_material=0x7f030000;
@@ -220,35 +352,44 @@ public final class R {
     public static final int action_image=0x7f050023;
     public static final int action_text=0x7f050024;
     public static final int actions=0x7f050025;
-    public static final int async=0x7f050026;
-    public static final int blocking=0x7f050027;
-    public static final int chronometer=0x7f050028;
-    public static final int dialog_button=0x7f050029;
-    public static final int forever=0x7f05002a;
-    public static final int icon=0x7f05002b;
-    public static final int icon_group=0x7f05002c;
-    public static final int info=0x7f05002d;
-    public static final int italic=0x7f05002e;
-    public static final int line1=0x7f05002f;
-    public static final int line3=0x7f050030;
-    public static final int normal=0x7f050031;
-    public static final int notification_background=0x7f050032;
-    public static final int notification_main_column=0x7f050033;
-    public static final int notification_main_column_container=0x7f050034;
-    public static final int right_icon=0x7f050035;
-    public static final int right_side=0x7f050036;
-    public static final int tag_accessibility_actions=0x7f050037;
-    public static final int tag_accessibility_clickable_spans=0x7f050038;
-    public static final int tag_accessibility_heading=0x7f050039;
-    public static final int tag_accessibility_pane_title=0x7f05003a;
-    public static final int tag_screen_reader_focusable=0x7f05003b;
-    public static final int tag_transition_group=0x7f05003c;
-    public static final int tag_unhandled_key_event_manager=0x7f05003d;
-    public static final int tag_unhandled_key_listeners=0x7f05003e;
-    public static final int text=0x7f05003f;
-    public static final int text2=0x7f050040;
-    public static final int time=0x7f050041;
-    public static final int title=0x7f050042;
+    public static final int androidx_window_activity_scope=0x7f050026;
+    public static final int async=0x7f050027;
+    public static final int blocking=0x7f050028;
+    public static final int chronometer=0x7f050029;
+    public static final int dialog_button=0x7f05002a;
+    public static final int forever=0x7f05002b;
+    public static final int icon=0x7f05002c;
+    public static final int icon_group=0x7f05002d;
+    public static final int info=0x7f05002e;
+    public static final int italic=0x7f05002f;
+    public static final int line1=0x7f050030;
+    public static final int line3=0x7f050031;
+    public static final int locale=0x7f050032;
+    public static final int ltr=0x7f050033;
+    public static final int normal=0x7f050034;
+    public static final int notification_background=0x7f050035;
+    public static final int notification_main_column=0x7f050036;
+    public static final int notification_main_column_container=0x7f050037;
+    public static final int right_icon=0x7f050038;
+    public static final int right_side=0x7f050039;
+    public static final int rtl=0x7f05003a;
+    public static final int tag_accessibility_actions=0x7f05003b;
+    public static final int tag_accessibility_clickable_spans=0x7f05003c;
+    public static final int tag_accessibility_heading=0x7f05003d;
+    public static final int tag_accessibility_pane_title=0x7f05003e;
+    public static final int tag_on_apply_window_listener=0x7f05003f;
+    public static final int tag_on_receive_content_listener=0x7f050040;
+    public static final int tag_on_receive_content_mime_types=0x7f050041;
+    public static final int tag_screen_reader_focusable=0x7f050042;
+    public static final int tag_state_description=0x7f050043;
+    public static final int tag_transition_group=0x7f050044;
+    public static final int tag_unhandled_key_event_manager=0x7f050045;
+    public static final int tag_unhandled_key_listeners=0x7f050046;
+    public static final int tag_window_insets_animation_callback=0x7f050047;
+    public static final int text=0x7f050048;
+    public static final int text2=0x7f050049;
+    public static final int time=0x7f05004a;
+    public static final int title=0x7f05004b;
   }
   public static final class integer {
     public static final int status_bar_notification_info_maxnum=0x7f060000;
@@ -281,6 +422,112 @@ public final class R {
   }
   public static final class styleable {
     /**
+     * Attributes that can be used with a ActivityFilter.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #ActivityFilter_activityAction com.example.ECommerceApp:activityAction}</code></td><td>Action used for activity launch.</td></tr>
+     * <tr><td><code>{@link #ActivityFilter_activityName com.example.ECommerceApp:activityName}</code></td><td>Component name of the primary activity in the split.</td></tr>
+     * </table>
+     * @see #ActivityFilter_activityAction
+     * @see #ActivityFilter_activityName
+     */
+    public static final int[] ActivityFilter={
+      0x7f010000, 0x7f010001
+    };
+    /**
+     * <p>
+     * @attr description
+     * Action used for activity launch. May be empty. Must not contain wildcards.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.example.ECommerceApp:activityAction
+     */
+    public static final int ActivityFilter_activityAction=0;
+    /**
+     * <p>
+     * @attr description
+     * Component name of the primary activity in the split. Must be non-empty. Can contain a
+     * single wildcard at the end.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.example.ECommerceApp:activityName
+     */
+    public static final int ActivityFilter_activityName=1;
+    /**
+     * Attributes that can be used with a ActivityRule.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #ActivityRule_alwaysExpand com.example.ECommerceApp:alwaysExpand}</code></td><td>Whether the activity should always be expanded on launch.</td></tr>
+     * </table>
+     * @see #ActivityRule_alwaysExpand
+     */
+    public static final int[] ActivityRule={
+      0x7f010003
+    };
+    /**
+     * <p>
+     * @attr description
+     * Whether the activity should always be expanded on launch.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.example.ECommerceApp:alwaysExpand
+     */
+    public static final int ActivityRule_alwaysExpand=0;
+    /**
+     * Attributes that can be used with a Capability.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #Capability_queryPatterns com.example.ECommerceApp:queryPatterns}</code></td><td>Resource reference to the string array of query patterns for a custom capability.</td></tr>
+     * <tr><td><code>{@link #Capability_shortcutMatchRequired com.example.ECommerceApp:shortcutMatchRequired}</code></td><td>Indicates whether a parameter in a capability template can only contain a matched
+     * shortcut id and not an arbitrary string.</td></tr>
+     * </table>
+     * @see #Capability_queryPatterns
+     * @see #Capability_shortcutMatchRequired
+     */
+    public static final int[] Capability={
+      0x7f010015, 0x7f010018
+    };
+    /**
+     * <p>
+     * @attr description
+     * Resource reference to the string array of query patterns for a custom capability.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.example.ECommerceApp:queryPatterns
+     */
+    public static final int Capability_queryPatterns=0;
+    /**
+     * <p>
+     * @attr description
+     * Indicates whether a parameter in a capability template can only contain a matched
+     * shortcut id and not an arbitrary string.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.example.ECommerceApp:shortcutMatchRequired
+     */
+    public static final int Capability_shortcutMatchRequired=1;
+    /**
      * Attributes that can be used with a ColorStateListItem.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -296,7 +543,7 @@ public final class R {
      * @see #ColorStateListItem_alpha
      */
     public static final int[] ColorStateListItem={
-      0x010101a5, 0x0101031f, 0x7f010000
+      0x010101a5, 0x0101031f, 0x7f010002
     };
     /**
      * <p>
@@ -342,6 +589,7 @@ public final class R {
      * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.example.ECommerceApp:fontProviderFetchTimeout}</code></td><td>The length of the timeout during fetching.</td></tr>
      * <tr><td><code>{@link #FontFamily_fontProviderPackage com.example.ECommerceApp:fontProviderPackage}</code></td><td>The package for the Font Provider to be used for the request.</td></tr>
      * <tr><td><code>{@link #FontFamily_fontProviderQuery com.example.ECommerceApp:fontProviderQuery}</code></td><td>The query to be sent over to the provider.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderSystemFontFamily com.example.ECommerceApp:fontProviderSystemFontFamily}</code></td><td>Provides the system font family name to check before downloading the font.</td></tr>
      * </table>
      * @see #FontFamily_fontProviderAuthority
      * @see #FontFamily_fontProviderCerts
@@ -349,10 +597,11 @@ public final class R {
      * @see #FontFamily_fontProviderFetchTimeout
      * @see #FontFamily_fontProviderPackage
      * @see #FontFamily_fontProviderQuery
+     * @see #FontFamily_fontProviderSystemFontFamily
      */
     public static final int[] FontFamily={
-      0x7f010002, 0x7f010003, 0x7f010004, 0x7f010005, 
-      0x7f010006, 0x7f010007
+      0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b, 
+      0x7f01000c, 0x7f01000d, 0x7f01000e
     };
     /**
      * <p>
@@ -458,6 +707,20 @@ public final class R {
      */
     public static final int FontFamily_fontProviderQuery=5;
     /**
+     * <p>
+     * @attr description
+     * Provides the system font family name to check before downloading the font. For
+     * example if the fontProviderQuery asked for "Sans Serif", it is possible to define
+     * fontProviderSystemFontFamily as "sans-serif" to tell the system to use "sans-serif" font
+     * family if it exists on the system.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.example.ECommerceApp:fontProviderSystemFontFamily
+     */
+    public static final int FontFamily_fontProviderSystemFontFamily=6;
+    /**
      * Attributes that can be used with a FontFamilyFont.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -488,8 +751,8 @@ public final class R {
      */
     public static final int[] FontFamilyFont={
       0x01010532, 0x01010533, 0x0101053f, 0x0101056f, 
-      0x01010570, 0x7f010001, 0x7f010008, 0x7f010009, 
-      0x7f01000a, 0x7f01000b
+      0x01010570, 0x7f010007, 0x7f01000f, 0x7f010010, 
+      0x7f010011, 0x7f01001d
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#font}
@@ -865,5 +1128,267 @@ public final class R {
      * @attr name android:offset
      */
     public static final int GradientColorItem_android_offset=1;
+    /**
+     * Attributes that can be used with a SplitPairFilter.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #SplitPairFilter_primaryActivityName com.example.ECommerceApp:primaryActivityName}</code></td><td>Component name of the primary activity in the split.</td></tr>
+     * <tr><td><code>{@link #SplitPairFilter_secondaryActivityAction com.example.ECommerceApp:secondaryActivityAction}</code></td><td>Action used for secondary activity launch.</td></tr>
+     * <tr><td><code>{@link #SplitPairFilter_secondaryActivityName com.example.ECommerceApp:secondaryActivityName}</code></td><td>Component name of the secondary activity in the split.</td></tr>
+     * </table>
+     * @see #SplitPairFilter_primaryActivityName
+     * @see #SplitPairFilter_secondaryActivityAction
+     * @see #SplitPairFilter_secondaryActivityName
+     */
+    public static final int[] SplitPairFilter={
+      0x7f010014, 0x7f010016, 0x7f010017
+    };
+    /**
+     * <p>
+     * @attr description
+     * Component name of the primary activity in the split. Must be non-empty. Can contain a
+     * wildcard at the end or instead of package name and/or class name.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.example.ECommerceApp:primaryActivityName
+     */
+    public static final int SplitPairFilter_primaryActivityName=0;
+    /**
+     * <p>
+     * @attr description
+     * Action used for secondary activity launch. May be empty. Must not contain wildcards.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.example.ECommerceApp:secondaryActivityAction
+     */
+    public static final int SplitPairFilter_secondaryActivityAction=1;
+    /**
+     * <p>
+     * @attr description
+     * Component name of the secondary activity in the split. Must be non-empty. Can contain a
+     * wildcard at the end or instead of package name and/or class name.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.example.ECommerceApp:secondaryActivityName
+     */
+    public static final int SplitPairFilter_secondaryActivityName=2;
+    /**
+     * Attributes that can be used with a SplitPairRule.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #SplitPairRule_clearTop com.example.ECommerceApp:clearTop}</code></td><td>If there is an existing split with the same primary container, indicates whether the
+     * existing secondary container on top and all activities in it should be destroyed when a new
+     * split is created using this rule.</td></tr>
+     * <tr><td><code>{@link #SplitPairRule_finishPrimaryWithSecondary com.example.ECommerceApp:finishPrimaryWithSecondary}</code></td><td>When all activities are finished in the secondary container, the activity in the
+     * primary container that created the split should also be finished.</td></tr>
+     * <tr><td><code>{@link #SplitPairRule_finishSecondaryWithPrimary com.example.ECommerceApp:finishSecondaryWithPrimary}</code></td><td>When all activities are finished in the primary container, the activities in the
+     * secondary container in the split should also be finished.</td></tr>
+     * <tr><td><code>{@link #SplitPairRule_splitLayoutDirection com.example.ECommerceApp:splitLayoutDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SplitPairRule_splitMinSmallestWidth com.example.ECommerceApp:splitMinSmallestWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SplitPairRule_splitMinWidth com.example.ECommerceApp:splitMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SplitPairRule_splitRatio com.example.ECommerceApp:splitRatio}</code></td><td></td></tr>
+     * </table>
+     * @see #SplitPairRule_clearTop
+     * @see #SplitPairRule_finishPrimaryWithSecondary
+     * @see #SplitPairRule_finishSecondaryWithPrimary
+     * @see #SplitPairRule_splitLayoutDirection
+     * @see #SplitPairRule_splitMinSmallestWidth
+     * @see #SplitPairRule_splitMinWidth
+     * @see #SplitPairRule_splitRatio
+     */
+    public static final int[] SplitPairRule={
+      0x7f010004, 0x7f010005, 0x7f010006, 0x7f010019, 
+      0x7f01001a, 0x7f01001b, 0x7f01001c
+    };
+    /**
+     * <p>
+     * @attr description
+     * If there is an existing split with the same primary container, indicates whether the
+     * existing secondary container on top and all activities in it should be destroyed when a new
+     * split is created using this rule. Otherwise the new secondary will appear on top. Defaults
+     * to "false".
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.example.ECommerceApp:clearTop
+     */
+    public static final int SplitPairRule_clearTop=0;
+    /**
+     * <p>
+     * @attr description
+     * When all activities are finished in the secondary container, the activity in the
+     * primary container that created the split should also be finished. Defaults to "false".
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.example.ECommerceApp:finishPrimaryWithSecondary
+     */
+    public static final int SplitPairRule_finishPrimaryWithSecondary=1;
+    /**
+     * <p>
+     * @attr description
+     * When all activities are finished in the primary container, the activities in the
+     * secondary container in the split should also be finished. Defaults to "true".
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.example.ECommerceApp:finishSecondaryWithPrimary
+     */
+    public static final int SplitPairRule_finishSecondaryWithPrimary=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.ECommerceApp.R.attr#splitLayoutDirection}
+     * attribute's value can be found in the {@link #SplitPairRule} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>locale</td><td>0</td><td></td></tr>
+     * <tr><td>ltr</td><td>1</td><td></td></tr>
+     * <tr><td>rtl</td><td>2</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.example.ECommerceApp:splitLayoutDirection
+     */
+    public static final int SplitPairRule_splitLayoutDirection=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.ECommerceApp.R.attr#splitMinSmallestWidth}
+     * attribute's value can be found in the {@link #SplitPairRule} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.example.ECommerceApp:splitMinSmallestWidth
+     */
+    public static final int SplitPairRule_splitMinSmallestWidth=4;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.ECommerceApp.R.attr#splitMinWidth}
+     * attribute's value can be found in the {@link #SplitPairRule} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.example.ECommerceApp:splitMinWidth
+     */
+    public static final int SplitPairRule_splitMinWidth=5;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.ECommerceApp.R.attr#splitRatio}
+     * attribute's value can be found in the {@link #SplitPairRule} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.example.ECommerceApp:splitRatio
+     */
+    public static final int SplitPairRule_splitRatio=6;
+    /**
+     * Attributes that can be used with a SplitPlaceholderRule.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #SplitPlaceholderRule_placeholderActivityName com.example.ECommerceApp:placeholderActivityName}</code></td><td>Component name of the placeholder activity in the split.</td></tr>
+     * <tr><td><code>{@link #SplitPlaceholderRule_splitLayoutDirection com.example.ECommerceApp:splitLayoutDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SplitPlaceholderRule_splitMinSmallestWidth com.example.ECommerceApp:splitMinSmallestWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SplitPlaceholderRule_splitMinWidth com.example.ECommerceApp:splitMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SplitPlaceholderRule_splitRatio com.example.ECommerceApp:splitRatio}</code></td><td></td></tr>
+     * </table>
+     * @see #SplitPlaceholderRule_placeholderActivityName
+     * @see #SplitPlaceholderRule_splitLayoutDirection
+     * @see #SplitPlaceholderRule_splitMinSmallestWidth
+     * @see #SplitPlaceholderRule_splitMinWidth
+     * @see #SplitPlaceholderRule_splitRatio
+     */
+    public static final int[] SplitPlaceholderRule={
+      0x7f010013, 0x7f010019, 0x7f01001a, 0x7f01001b, 
+      0x7f01001c
+    };
+    /**
+     * <p>
+     * @attr description
+     * Component name of the placeholder activity in the split. Must be non-empty.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.example.ECommerceApp:placeholderActivityName
+     */
+    public static final int SplitPlaceholderRule_placeholderActivityName=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.ECommerceApp.R.attr#splitLayoutDirection}
+     * attribute's value can be found in the {@link #SplitPlaceholderRule} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>locale</td><td>0</td><td></td></tr>
+     * <tr><td>ltr</td><td>1</td><td></td></tr>
+     * <tr><td>rtl</td><td>2</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.example.ECommerceApp:splitLayoutDirection
+     */
+    public static final int SplitPlaceholderRule_splitLayoutDirection=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.ECommerceApp.R.attr#splitMinSmallestWidth}
+     * attribute's value can be found in the {@link #SplitPlaceholderRule} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.example.ECommerceApp:splitMinSmallestWidth
+     */
+    public static final int SplitPlaceholderRule_splitMinSmallestWidth=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.ECommerceApp.R.attr#splitMinWidth}
+     * attribute's value can be found in the {@link #SplitPlaceholderRule} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.example.ECommerceApp:splitMinWidth
+     */
+    public static final int SplitPlaceholderRule_splitMinWidth=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.ECommerceApp.R.attr#splitRatio}
+     * attribute's value can be found in the {@link #SplitPlaceholderRule} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.example.ECommerceApp:splitRatio
+     */
+    public static final int SplitPlaceholderRule_splitRatio=4;
   }
 }

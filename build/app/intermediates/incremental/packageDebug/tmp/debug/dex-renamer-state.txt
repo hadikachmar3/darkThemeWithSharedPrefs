@@ -1,4 +1,4 @@
-#Wed Dec 23 21:21:50 EET 2020
-base.0=C\:\\Teach on Udemy\\ECommerceApp\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
-path.0=classes.dex
+#Fri Apr 15 08:05:49 CAT 2022
+base.0=C\:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 renamed.0=classes.dex
+path.0=classes.dex

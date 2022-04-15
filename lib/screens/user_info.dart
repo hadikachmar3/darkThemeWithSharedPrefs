@@ -16,13 +16,13 @@ class _UserInfoState extends State<UserInfo> {
   var top = 0.0;
   @override
   void initState() {
-  
     super.initState();
-    _scrollController =ScrollController();
-    _scrollController.addListener(() {setState(() {
-      
-    });});
+    _scrollController = ScrollController();
+    _scrollController.addListener(() {
+      setState(() {});
+    });
   }
+
   @override
   Widget build(BuildContext context) {
     final themeChange = Provider.of<DarkThemeProvider>(context);
@@ -37,8 +37,8 @@ class _UserInfoState extends State<UserInfo> {
                 elevation: 4,
                 expandedHeight: 200,
                 pinned: true,
-                flexibleSpace: LayoutBuilder(
-                    builder: (BuildContext context, BoxConstraints constraints) {
+                flexibleSpace: LayoutBuilder(builder:
+                    (BuildContext context, BoxConstraints constraints) {
                   top = constraints.biggest.height;
                   return Container(
                     decoration: BoxDecoration(
@@ -122,9 +122,6 @@ class _UserInfoState extends State<UserInfo> {
                     ),
                     userListTile('Email', 'Email sub', 0, context),
                     userListTile('Email', 'Email sub', 0, context),
-                    userListTile('Email', 'Email sub', 0, context),
-                    userListTile('Email', 'Email sub', 0, context),
-                    userListTile('Email', 'Email sub', 0, context),
                     userListTile('Phone number', '4555', 0, context),
                     userListTile('Shipping address', '', 0, context),
                     userListTile('joined date', 'date', 0, context),
@@ -160,9 +157,8 @@ class _UserInfoState extends State<UserInfo> {
       ),
     );
   }
- 
 
- Widget _buildFab() {
+  Widget _buildFab() {
     //starting fab position
     final double defaultTopMargin = 200.0 - 4.0;
     //pixels from top where scaling should start
@@ -187,16 +183,16 @@ class _UserInfoState extends State<UserInfo> {
       }
     }
 
-return  Positioned(
+    return Positioned(
       top: top,
       right: 16.0,
-      child:  Transform(
-        transform:  Matrix4.identity()..scale(scale),
+      child: Transform(
+        transform: Matrix4.identity()..scale(scale),
         alignment: Alignment.center,
-        child:  FloatingActionButton(
+        child: FloatingActionButton(
           heroTag: "btn1",
-          onPressed: (){},
-          child:  Icon(Icons.camera_alt_outlined),
+          onPressed: () {},
+          child: Icon(Icons.camera_alt_outlined),
         ),
       ),
     );
