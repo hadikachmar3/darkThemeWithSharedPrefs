@@ -15,25 +15,25 @@ public final class R {
         public static final int activityAction = 0x7f010000;
         public static final int activityName = 0x7f010001;
         public static final int alwaysExpand = 0x7f010003;
-        public static final int clearTop = 0x7f010004;
-        public static final int finishPrimaryWithSecondary = 0x7f010005;
-        public static final int finishSecondaryWithPrimary = 0x7f010006;
-        public static final int placeholderActivityName = 0x7f010013;
-        public static final int primaryActivityName = 0x7f010014;
-        public static final int secondaryActivityAction = 0x7f010016;
-        public static final int secondaryActivityName = 0x7f010017;
-        public static final int splitLayoutDirection = 0x7f010019;
-        public static final int splitMinSmallestWidth = 0x7f01001a;
-        public static final int splitMinWidth = 0x7f01001b;
-        public static final int splitRatio = 0x7f01001c;
+        public static final int clearTop = 0x7f010006;
+        public static final int finishPrimaryWithSecondary = 0x7f010009;
+        public static final int finishSecondaryWithPrimary = 0x7f01000a;
+        public static final int placeholderActivityName = 0x7f010020;
+        public static final int primaryActivityName = 0x7f010021;
+        public static final int secondaryActivityAction = 0x7f010024;
+        public static final int secondaryActivityName = 0x7f010025;
+        public static final int splitLayoutDirection = 0x7f010027;
+        public static final int splitMinSmallestWidth = 0x7f010028;
+        public static final int splitMinWidth = 0x7f010029;
+        public static final int splitRatio = 0x7f01002a;
     }
     public static final class id {
         private id() {}
 
-        public static final int androidx_window_activity_scope = 0x7f050026;
-        public static final int locale = 0x7f050032;
-        public static final int ltr = 0x7f050033;
-        public static final int rtl = 0x7f05003a;
+        public static final int androidx_window_activity_scope = 0x7f050029;
+        public static final int locale = 0x7f050049;
+        public static final int ltr = 0x7f05004a;
+        public static final int rtl = 0x7f050053;
     }
     public static final class styleable {
         private styleable() {}
@@ -43,11 +43,11 @@ public final class R {
         public static final int ActivityFilter_activityName = 1;
         public static final int[] ActivityRule = { 0x7f010003 };
         public static final int ActivityRule_alwaysExpand = 0;
-        public static final int[] SplitPairFilter = { 0x7f010014, 0x7f010016, 0x7f010017 };
+        public static final int[] SplitPairFilter = { 0x7f010021, 0x7f010024, 0x7f010025 };
         public static final int SplitPairFilter_primaryActivityName = 0;
         public static final int SplitPairFilter_secondaryActivityAction = 1;
         public static final int SplitPairFilter_secondaryActivityName = 2;
-        public static final int[] SplitPairRule = { 0x7f010004, 0x7f010005, 0x7f010006, 0x7f010019, 0x7f01001a, 0x7f01001b, 0x7f01001c };
+        public static final int[] SplitPairRule = { 0x7f010006, 0x7f010009, 0x7f01000a, 0x7f010027, 0x7f010028, 0x7f010029, 0x7f01002a };
         public static final int SplitPairRule_clearTop = 0;
         public static final int SplitPairRule_finishPrimaryWithSecondary = 1;
         public static final int SplitPairRule_finishSecondaryWithPrimary = 2;
@@ -55,7 +55,7 @@ public final class R {
         public static final int SplitPairRule_splitMinSmallestWidth = 4;
         public static final int SplitPairRule_splitMinWidth = 5;
         public static final int SplitPairRule_splitRatio = 6;
-        public static final int[] SplitPlaceholderRule = { 0x7f010013, 0x7f010019, 0x7f01001a, 0x7f01001b, 0x7f01001c };
+        public static final int[] SplitPlaceholderRule = { 0x7f010020, 0x7f010027, 0x7f010028, 0x7f010029, 0x7f01002a };
         public static final int SplitPlaceholderRule_placeholderActivityName = 0;
         public static final int SplitPlaceholderRule_splitLayoutDirection = 1;
         public static final int SplitPlaceholderRule_splitMinSmallestWidth = 2;

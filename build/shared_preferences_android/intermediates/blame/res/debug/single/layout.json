@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\shared_preferences_android\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\ee7ce0824f2990f18233d9ddee33abb0\\core-1.6.0\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\shared_preferences_android\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\ee7ce0824f2990f18233d9ddee33abb0\\core-1.6.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\shared_preferences_android\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\ee7ce0824f2990f18233d9ddee33abb0\\core-1.6.0\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\shared_preferences_android\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\ee7ce0824f2990f18233d9ddee33abb0\\core-1.6.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\shared_preferences_android\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\ee7ce0824f2990f18233d9ddee33abb0\\core-1.6.0\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\shared_preferences_android\\intermediates\\res\\merged\\debug\\layout\\custom_dialog.xml",
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\ee7ce0824f2990f18233d9ddee33abb0\\core-1.6.0\\res\\layout\\custom_dialog.xml"
+    }
+]

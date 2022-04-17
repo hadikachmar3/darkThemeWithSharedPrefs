@@ -4,13 +4,54 @@
             "outputFile": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kk\\values-kk.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\302389a8a46ecc535a76d16c96f99dde\\core-1.6.0\\res\\values-kk\\values-kk.xml",
+                    "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\80a8038f552a19be77689c05067ebb99\\play-services-basement-18.0.0\\res\\values-kk\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "159",
+                        "endOffsets": "354"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1249",
+                        "endColumns": "163",
+                        "endOffsets": "1408"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\ee7ce0824f2990f18233d9ddee33abb0\\core-1.6.0\\res\\values-kk\\values-kk.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
                         "endColumns": "100",
                         "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2752",
+                        "endColumns": "100",
+                        "endOffsets": "2848"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\values-kk\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,346,531,655,759,958,1082,1231,1365,1589,1693,1881,2008,2220,2403,2492,2577",
+                        "endColumns": "100,184,123,103,198,123,148,133,223,103,187,126,211,182,88,84,102",
+                        "endOffsets": "345,530,654,758,957,1081,1230,1364,1588,1692,1880,2007,2219,2402,2491,2576,2679"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,210,395,523,631,830,958,1111,1413,1637,1745,1933,2064,2276,2463,2556,2645",
+                        "endColumns": "104,184,127,107,198,127,152,137,223,107,187,130,211,186,92,88,106",
+                        "endOffsets": "205,390,518,626,825,953,1106,1244,1632,1740,1928,2059,2271,2458,2551,2640,2747"
                     }
                 }
             ]
