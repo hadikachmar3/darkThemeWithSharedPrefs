@@ -80,6 +80,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "firebase",
+      "rootUri": "file:///C:/Users/k9ket/Downloads/flutter_windows_2.10.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/firebase-9.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "firebase_auth",
       "rootUri": "file:///C:/Users/k9ket/Downloads/flutter_windows_2.10.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-3.3.14",
       "packageUri": "lib/",
@@ -140,6 +146,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "font_awesome_flutter",
+      "rootUri": "file:///C:/Users/k9ket/Downloads/flutter_windows_2.10.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/font_awesome_flutter-10.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "google_sign_in",
       "rootUri": "file:///C:/Users/k9ket/Downloads/flutter_windows_2.10.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-5.3.0",
       "packageUri": "lib/",
@@ -168,6 +180,12 @@
       "rootUri": "file:///C:/Users/k9ket/Downloads/flutter_windows_2.10.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_web-0.10.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "http",
+      "rootUri": "file:///C:/Users/k9ket/Downloads/flutter_windows_2.10.4-stable/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.13.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
     },
     {
       "name": "http_parser",
@@ -416,7 +434,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2022-04-17T10:09:58.839287Z",
+  "generated": "2022-04-17T10:22:57.649244Z",
   "generator": "pub",
   "generatorVersion": "2.16.2"
 }

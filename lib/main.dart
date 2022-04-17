@@ -1,6 +1,7 @@
 import 'package:ECommerceApp/consts/theme_data.dart';
 import 'package:ECommerceApp/provider/dark_theme_provider.dart';
 import 'package:ECommerceApp/screens/bottom_bar.dart';
+import 'package:ECommerceApp/screens/login.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -8,7 +9,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Fir
+  await Firebase.initializeApp();
   runApp(MyApp());
 }
 
@@ -44,7 +45,7 @@ class _MyAppState extends State<MyApp> {
           return MaterialApp(
             title: 'Flutter Demo',
             theme: Styles.themeData(themeChangeProvider.darkTheme, context),
-            home: BottomBarScreen(),
+            home: LoginPage(),
           );
         }));
   }
