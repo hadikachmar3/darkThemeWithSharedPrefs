@@ -1,3 +1,4 @@
+import 'package:ECommerceApp/screens/controller/googlesignin.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
@@ -20,7 +21,9 @@ class _LoginPageState extends State<LoginPage> {
                     onPrimary: Colors.black,
                     minimumSize: Size(double.infinity, 50)),
                 icon: FaIcon(FontAwesomeIcons.google),
-                onPressed: () {},
+                onPressed: () {
+                  signInWithGoogle(context);
+                },
                 label: Text("Sign in with Google"))
           ],
         ),

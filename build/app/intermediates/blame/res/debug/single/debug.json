@@ -1,11 +1,11 @@
 [
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_light_normal.xml.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
@@ -17,31 +17,35 @@
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_dark.xml.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_disabled.xml.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable-xxhdpi-v4\\googleg_standard_color_18.png"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable-xxhdpi-v4\\googleg_standard_color_18.png"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\layout_notification_template_part_time.xml.flat",
         "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\ee7ce0824f2990f18233d9ddee33abb0\\core-1.6.0\\res\\layout\\notification_template_part_time.xml"
     },
     {
+        "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-watch-v20_common_google_signin_btn_text_disabled.xml.flat",
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\b6d5d4546c6cb18076080c2d0a5267a2\\play-services-auth-20.0.1\\res\\drawable-watch-v20\\common_google_signin_btn_text_disabled.xml"
+    },
+    {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_light.xml.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_text_light.xml"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
@@ -53,7 +57,7 @@
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_light_focused.xml.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
@@ -61,7 +65,7 @@
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_dark.xml.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable_launch_background.xml.flat",
@@ -73,23 +77,23 @@
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable-hdpi-v4\\googleg_disabled_color_18.png"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable-hdpi-v4\\googleg_disabled_color_18.png"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_dark_normal.xml.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable_notification_bg.xml.flat",
@@ -105,15 +109,19 @@
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_dark_focused.xml.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable-mdpi-v4\\googleg_disabled_color_18.png"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable-mdpi-v4\\googleg_disabled_color_18.png"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-watch-v20_common_google_signin_btn_text_light_normal.xml.flat",
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\b6d5d4546c6cb18076080c2d0a5267a2\\play-services-auth-20.0.1\\res\\drawable-watch-v20\\common_google_signin_btn_text_light_normal.xml"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
@@ -125,11 +133,11 @@
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_full_open_on_phone.png.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable-xhdpi-v4\\common_full_open_on_phone.png"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable-xhdpi-v4\\common_full_open_on_phone.png"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
@@ -141,11 +149,11 @@
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
@@ -153,11 +161,15 @@
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_full_open_on_phone.png.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable-hdpi-v4\\common_full_open_on_phone.png"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable-hdpi-v4\\common_full_open_on_phone.png"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-watch-v20_common_google_signin_btn_text_dark_normal.xml.flat",
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\b6d5d4546c6cb18076080c2d0a5267a2\\play-services-auth-20.0.1\\res\\drawable-watch-v20\\common_google_signin_btn_text_dark_normal.xml"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
@@ -169,7 +181,7 @@
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_light_focused.xml.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
@@ -177,7 +189,7 @@
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
@@ -189,7 +201,7 @@
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\layout_browser_actions_context_menu_page.xml.flat",
@@ -197,7 +209,7 @@
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_dark_focused.xml.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
@@ -209,11 +221,11 @@
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\color_common_google_signin_btn_tint.xml.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\color\\common_google_signin_btn_tint.xml"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\color\\common_google_signin_btn_tint.xml"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\layout-v21_notification_action.xml.flat",
@@ -221,11 +233,11 @@
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable-xhdpi-v4\\googleg_disabled_color_18.png"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable-xhdpi-v4\\googleg_disabled_color_18.png"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\color_common_google_signin_btn_text_light.xml.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\color\\common_google_signin_btn_text_light.xml"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\color\\common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
@@ -237,11 +249,11 @@
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_dark_normal.xml.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
@@ -257,19 +269,19 @@
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_light.xml.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_icon_light.xml"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_light_normal.xml.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable-xhdpi-v4\\googleg_standard_color_18.png"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable-xhdpi-v4\\googleg_standard_color_18.png"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
@@ -281,7 +293,7 @@
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\color_common_google_signin_btn_text_dark.xml.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\color\\common_google_signin_btn_text_dark.xml"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\color\\common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\layout_custom_dialog.xml.flat",
@@ -289,19 +301,19 @@
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable-mdpi-v4\\googleg_standard_color_18.png"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable-mdpi-v4\\googleg_standard_color_18.png"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable-hdpi-v4\\googleg_standard_color_18.png"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable-hdpi-v4\\googleg_standard_color_18.png"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_disabled.xml.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
@@ -309,6 +321,6 @@
     },
     {
         "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\app\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\83aad08bbcc77c799bc012d392886d5f\\play-services-base-17.1.0\\res\\drawable-xxhdpi-v4\\googleg_disabled_color_18.png"
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\drawable-xxhdpi-v4\\googleg_disabled_color_18.png"
     }
 ]

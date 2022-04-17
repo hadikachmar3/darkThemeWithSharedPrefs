@@ -1,4 +1,5 @@
 import 'package:ECommerceApp/consts/my_icons.dart';
+import 'package:ECommerceApp/screens/addNote.dart';
 import 'package:ECommerceApp/screens/search.dart';
 import 'package:ECommerceApp/screens/user_info.dart';
 import 'package:flutter/material.dart';
@@ -111,7 +112,16 @@ class _BottomBarScreenState extends State<BottomBarScreen> {
           elevation: 4,
           child: Icon(Icons.add),
           onPressed: () => setState(() {
-            _selectedPageIndex = 2;
+            Navigator.of(context)
+              .push(
+            MaterialPageRoute(
+              builder: (context) => AddNote(),
+            ),
+          )
+              .then((value) {
+            print("Calling Set  State !");
+            setState(() {});
+          });
           }),
         ),
       ),

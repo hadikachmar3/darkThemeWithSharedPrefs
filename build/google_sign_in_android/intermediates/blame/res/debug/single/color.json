@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\google_sign_in_android\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\google_sign_in_android\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\color\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\k9ket\\Documents\\GitHub\\darkThemeWithSharedPrefs\\build\\google_sign_in_android\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_tint.xml",
+        "source": "C:\\Users\\k9ket\\.gradle\\caches\\transforms-2\\files-2.1\\777acb520a5a572da4abfca399631563\\play-services-base-18.0.1\\res\\color\\common_google_signin_btn_tint.xml"
+    }
+]
