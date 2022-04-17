@@ -31,7 +31,10 @@ dependencies:
   flutter_icons: ^1.1.0
   list_tile_switch: ^0.0.2
   provider: ^4.3.2+3
-  shared_preferences: ^0.5.12+4
+  shared_preferences: ^2.0.13
+  firebase_auth: ^3.3.13
+  firebase_core: ^0.5.3
+  permission_handler: ^9.2.0
 
 dev_dependencies:
   flutter_test:

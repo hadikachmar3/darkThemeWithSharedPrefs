@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "927685539148",
+    "project_id": "taonessauth-2",
+    "storage_bucket": "taonessauth-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927685539148:android:e43f21568f059ed1e0cbe9",
+        "android_client_info": {
+          "package_name": "com.example.ECommerceApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927685539148-l9ecfqpdjne00qhdoc50m2oi0talqmv5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW0uv_IoknxpNJ5sUN1p59DISbOhUBQUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927685539148-l9ecfqpdjne00qhdoc50m2oi0talqmv5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
